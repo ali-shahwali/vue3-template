@@ -1,0 +1,40 @@
+{
+    "template": {
+        "scope": "vue",
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "  $1",
+            "</template>"
+        ],
+        "description": "Create <template> block"
+    },
+    "vue setup": {
+        "scope": "vue",
+        "prefix": "vue setup",
+        "body": [
+            "<script setup lang=\"ts\">",
+            "$1",
+            "</script>",
+            "",
+            "<template>",
+            "   $2",
+            "</template>",
+            "",
+            "<style scoped>",
+            "$3",
+            "</style>"
+        ],
+        "description": "Create <script setup> and <template> block"
+    },
+    "style scss": {
+        "scope": "vue",
+        "prefix": "style scss",
+        "body": [
+            "<style lang=\"scss\" scoped>",
+            "$1",
+            "</style>"
+        ],
+        "description": "Create <style lang=\"scss\" scoped> block"
+    },
+}
