@@ -1,0 +1,17 @@
+{
+    "store": {
+      "scope": "typescript",
+      "prefix": "store",
+      "body": [
+        "import { defineStore } from 'pinia';",
+        "export const $1 = defineStore('$1', {",
+        "   state: () => {",
+        "       return {",
+        "       };",
+        "   },",
+        "})"
+      ],
+      "description": "Create store boilerplate"
+    }
+  }
+  
