@@ -1,12 +1,13 @@
 <script setup lang="ts">
-  import { isDark, toggleDark } from "~/logic";
+  import { isDark, toggleDark } from "../composables/dark";
+  import { SunIcon, MoonIcon } from "@heroicons/vue/solid";
 </script>
 
 <template>
-  <nav class="text-xl">
-    <button class="icon-btn mx-2 !outline-none" @click="toggleDark">
-      <carbon-moon v-if="isDark" />
-      <carbon-sun v-else />
-    </button>
-  </nav>
+  <component
+    class="w-7"
+    :class="isDark ? 'text-yellow-500' : 'text-violet-900'"
+    :is="isDark ? SunIcon : MoonIcon"
+    @click="toggleDark()"
+  />
 </template>

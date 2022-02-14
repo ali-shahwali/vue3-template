@@ -7,11 +7,7 @@ import App from "./App.vue";
 // state management
 import { createPinia } from "pinia";
 
-// windicss layers
-import "virtual:windi-base.css";
-import "virtual:windi-components.css";
-import "./styles/main.css";
-import "virtual:windi-utilities.css";
+import "./index.css";
 
 const app = createApp(App);
 const router = createRouter({
