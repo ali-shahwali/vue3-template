@@ -6,9 +6,9 @@ This template includes
 - <a href="https://github.com/vitejs/vite">Vite</a>
 - TypeScript support
 - File based routing
-- <a href="https://github.com/windicss/windicss">WindiCSS</a>
+- <a href="https://tailwindcss.com/">Tailwindcss</a>
 - Auto importing components
-- Iconify
+- Heroicons
 - State management with <a href="https://github.com/posva/pinia">pinia</a>
 
 ## Launch app
